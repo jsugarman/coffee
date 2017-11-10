@@ -1,14 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print (1.8.0)
     backports (3.10.3)
+    byebug (9.1.0)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     mime-types (2.99.3)
+    mini_portile2 (2.3.0)
     multi_json (1.12.2)
     netrc (0.11.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     rack (1.6.8)
     rack-protection (1.5.3)
       rack
@@ -38,6 +43,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
+  byebug
+  nokogiri
   rest-client (~> 1.8)
   sinatra-contrib (~> 1.4, >= 1.4.6)
 
